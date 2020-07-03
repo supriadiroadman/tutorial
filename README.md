@@ -76,7 +76,8 @@ ________________________________
 
 Masuk dulu ke branch cabang dengan cara
 - git checkout namabranch
-- git push --set-upstream origin namabranch, atau jika bisa juga dengan
+- git push --set-upstream origin namabranch
+atau jika bisa juga dengan
 - git push origin namabranch
 
 ________________________________
