@@ -1,3 +1,13 @@
+# Git command
+- git init
+- git add <namafile> => satu file
+- git add . => semua file
+- git status
+- git commit -m "Pesan commit"
+- git config --list
+- git branch
+- git help
+
 # Cara git checkout ke commit yang mengalami detach head,
 temp adalah nama branch sementara/ pilih nama sesuka anda
 
