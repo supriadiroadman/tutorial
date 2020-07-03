@@ -11,40 +11,37 @@ temp adalah nama branch sementara/ pilih nama sesuka anda
 
 ________________________________
 
-#Cara menghapus branch di remote/github dari local
+# Cara menghapus branch di remote/github dari local
 
-git push origin --delete namabranch
+- git push origin --delete namabranch
 
 
 ________________________________
 
-#Cara push branch ke remote/github
+# Cara push branch ke remote/github
 
 Masuk dulu ke branch cabang dengan cara
-git checkout namabranch
-git push --set-upstream origin namabranch, atau jika bisa juga dengan
-git push origin namabranch
+- git checkout namabranch
+- git push --set-upstream origin namabranch, atau jika bisa juga dengan
+- git push origin namabranch
 
 ________________________________
 
-#Cara cloning repo dari remote/github ke local
+# Cara cloning repo dari remote/github ke local
 
-git clone https://github.com/supriadiroadman/namarepositori
-
-________________________________
-
-#Update dari remote ke local
-
-git fetch
-git pull
-
-https://github.com/supriadiroadman/git-test-2.git
-https://github.com/supriadiroadman/git-test-2.git
-https://github.com/supriadiroadman/git-test-2.git
+- git clone https://github.com/supriadiroadman/namarepositori
 
 ________________________________
-#Cara melihat branch yang tersembunyi dari repo yg kita clone
-git branch -a   atau   git branch --all
+
+# Update dari remote ke local
+
+- git fetch
+- git pull
+
+________________________________
+# Cara melihat branch yang tersembunyi dari repo yg kita clone
+- git branch -a, atau   
+- git branch --all
 
 Jika ingin masuk ke branch tsb
-git checkout namabranch
+- git checkout namabranch
