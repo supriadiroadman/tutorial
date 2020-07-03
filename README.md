@@ -1,4 +1,4 @@
-#Cara git checkout ke commit yang mengalami detach head
+#Cara git checkout ke commit yang mengalami detach head,
 temp adalah nama branch sementara/ pilih nama sesuka anda
 
 
