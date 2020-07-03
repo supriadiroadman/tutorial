@@ -2,12 +2,12 @@
 temp adalah nama branch sementara/ pilih nama sesuka anda
 
 
-git checkout abc1234
+- git checkout abc1234
 
-git checkout -b temp
-git checkout -B master temp
+- git checkout -b temp
+- git checkout -B master temp
 
-git push origin master --force
+- git push origin master --force
 
 ________________________________
 
