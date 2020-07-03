@@ -48,9 +48,11 @@
 
 # Cara menghapus branch
 - git branch -d namabranch
+
   atau jika ingin mencek dahulu branch yang sudah di merge
   
 - git branch --merged
+
   jika branch tidak jadi di merge, bisa dihapus dengan cara
   
 - git branch -D namabranch
