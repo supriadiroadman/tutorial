@@ -53,6 +53,8 @@
   
 - git branch --merged
 
+  lalu hapus branchnya
+
   jika branch tidak jadi di merge, bisa dihapus dengan cara
   
 - git branch -D namabranch
