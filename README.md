@@ -4,10 +4,15 @@
 - git add <namafile> => satu file
 - git add . => semua file
 - git commit -m "Pesan commit"  / git commit => akan membuat pesan default
-- git push -u origin master / git push
-- git log  /  git log -3 => Melihat 3 log terakhir yang di commit  / git log --namafile.php => melihat perubahan pada file tertentu
+- git push -u origin master
+- git push => Push jika sebelumnya sudah git push -u origin master
+- git log 
+- git log -3 => Melihat 3 log terakhir yang di commit 
+- git log --namafile.php => melihat perubahan pada file tertentu
 - git config --list
-- git branch  => Melihat list branch / git branch namabranch => Membuat branch baru  / git branch -d namabranch => Menghapus branch
+- git branch  => Melihat list branch 
+- git branch namabranch => Membuat branch baru 
+- git branch -d namabranch => Menghapus branch
 - git checkout namabranch => Pindah ke branch
 - git help
 - git log --all --decorate --oneline --graph => Membuat graph
