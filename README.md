@@ -49,8 +49,10 @@
 # Cara menghapus branch
 - git branch -d namabranch
   atau jika ingin mencek dahulu branch yang sudah di merge
+  
 - git branch --merged
   jika branch tidak jadi di merge, bisa dihapus dengan cara
+  
 - git branch -D namabranch
 
 
@@ -77,7 +79,8 @@ ________________________________
 Masuk dulu ke branch cabang dengan cara
 - git checkout namabranch
 - git push --set-upstream origin namabranch
-atau jika bisa juga dengan
+
+  atau jika bisa juga dengan
 - git push origin namabranch
 
 ________________________________
