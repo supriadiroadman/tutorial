@@ -39,6 +39,12 @@
 - git checkout master  => Masuk ke branch master dulu
 - git merge namabranch => namabranch adalah branch yang akan di merge ke branch master
   Maka otomatis masuk ke editor, save dan close pesan commit defaultnya.
+  
+  # Cara merge branch yang konflik
+  setelah di merge, maka resolve secara manual, lalu
+- git add .
+- git commit => tanpa -m,  Agar menggunakan pesan commit default. Tinggal hapus branch cabangnya
+
 
 # Cara menghapus branch
 - git branch -d namabranch
