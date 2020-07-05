@@ -1,0 +1,54 @@
+ class Mahasiswa
+    {
+        private $nama;
+        private $alamat;
+        private $berat;
+        private $tinggi;
+
+        // Menggunakan magic method
+        public function __get($attribute)
+        {
+            if (method_exists($this, 'get' . $attribute)) {
+                return call_user_func([$this, 'get' . $attribute]);
+            } else {
+                return $this->$attribute;
+            }
+        }
+
+        public function __set($attribute, $value)
+        {
+            if (property_exists($this, $attribute)) {
+                $this->$attribute = $value;
+            }
+        }
+
+        // Bila menggunakan cara method biasa
+        public function setBerat($berat)
+        {
+            $this->berat = $berat;
+        }
+
+        public function getBerat()
+        {
+            return $this->berat . " Kg";
+        }
+    }
+
+    // Inisialisasi object
+    $mahasiswa = new Mahasiswa();
+
+    // Set value
+    $mahasiswa->nama = "Supriadi Roadman";
+    $mahasiswa->alamat = "Jakarta";
+    $mahasiswa->berat = 80;
+    $mahasiswa->tinggi = 180;
+
+    // Get value
+    echo $mahasiswa->nama . "</br>";
+    echo $mahasiswa->alamat . "</br>";
+    echo $mahasiswa->berat . "</br>";
+    echo $mahasiswa->tinggi . "</br>";
+
+    // Set & Get Value
+    $mahasiswa->setBerat(60);
+    echo $mahasiswa->getBerat();
