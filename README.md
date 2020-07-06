@@ -85,7 +85,7 @@ Masuk dulu ke branch cabang dengan cara
 - git push --set-upstream origin namabranch
 
   atau jika bisa juga dengan
-- git push origin namabranch
+- git push -u origin namabranch
 
 ________________________________
 
