@@ -111,6 +111,6 @@ Jika ingin masuk ke branch tsb
 # Batal commit terakhir / Cancel/ Undo
  - git commit -m "Commit terakhir yang akan dibatalkan"            
  - git reset HEAD~                                         
-<< edit files as necessary >>  // save lalu cancel tab yang terbuka otomatis utk menggunakan message commit terakhir
- - git add ...                      
- - git commit -c ORIG_HEAD
+<< edit files yang akan di ubah >>
+ - git add .                      
+ - git commit -c ORIG_HEAD  // save lalu close tab yang terbuka otomatis utk menggunakan message commit terakhir
