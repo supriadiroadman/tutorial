@@ -114,3 +114,7 @@ Jika ingin masuk ke branch tsb
 << edit files yang akan di ubah >>
  - git add .                      
  - git commit -c ORIG_HEAD  // save lalu close tab yang terbuka otomatis utk menggunakan message commit terakhir
+
+# Mengembalikan perubahan ke Commit terakhir
+ - git reset HEAD --hard  // Mengembalikan semua perubahan,  termasuk file yg dihapus    
+ - git clean -fd  // Menghapus semua file dan  folder yang ditambahkan
